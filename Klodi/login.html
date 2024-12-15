@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="car-131982518629777154.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        
+          <nav id="navbar">
+            <ul id="ulNav">
+                <li class="grow"><a href="home.html">Home</a></li>
+                <li class="grow"><a href="about.html">About</a></li>
+                <li class="grow"><a href="products.html">Products</a></li>
+                <li class="grow"><a href="contact.html">Contact</a></li>
+                <li class="grow"><a href="admin.html">Admin</a></li>
+                <li class="grow"><a href="support.html">Support</a></li>
+                <li class="grow"><a href="login.html">Login</a></li>
+            </ul>  
+            <h1 id="h1">Login</h1>
+         </nav>
+    </header>
+    <main>
+        <h2 style="color: #003399; text-align: center;">Log in to your to account</h2>
+        <form class="form-container-login">
+            <label class="username-login" for="name">
+              Email:
+              </label>
+            <input class="username-input" type="text" 
+                   placeholder="Enter Your Email" 
+                   id="email" name="email" required>
+            <label for="email" class="email-login">Password:</label>
+                   <input type="text" id="password" autocomplete="off" class="form-control input-lg" placeholder="Enter your password">
+
+    <progress max="100" value="0" id="meter"></progress>
+
+
+            <button class="Submit-btn"
+                    type="submit">
+              Submit
+              </button>
+        </form>       
+        <div class="textbox text-center">minimum number of characters is 6</div> 
+    </main>
+    <script src="interaction.js"></script>
+</body>
+</html>
